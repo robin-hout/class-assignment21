@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* maindiv */
+.main-div{
+
+    width: 100%;
+    margin: 10px auto;
+}
+
+/* header part */
+.header{
+
+    background-color: #22c3a3;
+    line-height: 60px;
+}
+
+.h-left{
+
+    width: 30%;
+    float: left;
+    margin: 0 25px;
+    box-sizing: border-box;
+}
+
+.h-left h1{
+    
+    color: #fff;
+}
+
+.h-right{
+
+    width: 62%;
+    float: right;
+    text-align: right;
+    box-sizing: border-box;
+    margin: 0 13px;
+}
+
+.h-right ul{
+
+    list-style: none;
+}
+
+.h-right ul li{
+
+    display: inline-block;
+}
+
+.h-right ul li a{
+
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #ddd;
+}
+
+.h-right ul li a:hover{
+
+}
+
+ /* banner section  */
+
+ .baner{
+   background-image:url(./img/header-bg01.jpg);
+   padding: 200px 0;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+ }
+
+ .content{
+
+ }
+
+ .content h1{
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
+
+ .content p{
+
+    margin-bottom: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+ }
+
+ .btn{
+
+    text-align: center;
+    margin-top: 45px;
+    position: relative;
+ }
+
+ .clic-me{
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #ddd;
+    padding: 5px 14px;
+    text-transform: uppercase;
+    font-size: small;
+    position: relative;
+    font-size: 24px;
+    border-radius: 5px;
+    z-index: 1;
+ }
+
+ .clic-me::before{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(16, 172, 29);
+    transition: .5s;
+    overflow: hidden;
+    z-index: -1;
+ }
+
+
+
+ .clic-me:hover::before{
+   border-radius: 5px;
+   
+   width: 100%;
+
+ }
+
+ /* service section */
+ .service{
+
+    text-align: center;
+ }
+
+ .servic-content {text-align: center;font-family: 'Roboto', sans-serif;margin: 40px 0;}
+
+ .servic-content h1{
+
+    text-transform: capitalize;
+    margin: 12px 0;
+    color: dimgrey;
+ }
+
+ .servic-content p{
+
+ }
+
+ .servicess {
+
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+ }
+
+ .servicess span{
+
+    color: #00bd97;
+    font-size: 36px;
+ }
+
+ .servicess h2{
+
+    margin-top: 15px;
+    color: darkgray;
+    text-transform: capitalize;
+ }
+
+ .servicess p{
+
+    color: darkgray;
+    margin: 10px 0;
+ }
+
+ .another-content {
+   border-bottom: 2px solid green;
+   padding-bottom: 50px;
+}
+
+ /* about section */
+
+ .about{
+
+    text-align: center;
+    padding: 50px 0;
+ }
+
+ .about h2{
+
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: darkgrey;
+ }
+
+ .about p{
+    
+    color: darkgrey;
+ }
+
+ .about-content{
+
+    margin-bottom: 25px;
+ }
+ .about-content-L {
+   float: left;
+   width: 40%;
+}
+
+ 
+   .about-content-R {
+      float: right;
+      width: 58%;
+  }
+
+  .about-content-R p{
+   margin: 15px 0;
+   color: darkgrey;
+  }
+
+  .about-content-R h2 {
+   color: dimgray;
+}
+ 
+
+ /* contact section */
+
+ .contact{
+   background-color: #f6f6f6;
+    text-align: center;
+ }
+ .contact h2{
+
+    color: rgba(0, 0, 0, .8);
+    margin-bottom: 10px;
+ }
+ .contact p{
+
+    color: dimgray;
+    margin-bottom: 10px;
+    font-size: small;
+ }
+ .contact li{
+
+    list-style: none;
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 30px;
+ }
+ .contact li span{
+
+    display: block;
+    color: green;
+    margin: 10px 0;
+ }
+ .contact li small{
+
+    color: darkgray;
+ }
+
+ /* foter section */
+
+ .foter{background-color: #0dbf9b;}
+
+ .foter li{text-align: center;list-style: none;padding: 16px 0;}
+
+ .foter li a{color: #fff;padding: 0 15px;}
+
+ /* fotter bottom section */
+
+ .foter-bottom{
+   background-color: #222222;
+   padding: 10px 0;
+   text-align: center;
+   font-size: small;
+   color: darkgrey;
+ }
